@@ -16,25 +16,23 @@ class App extends Component {
 
   unsubscribeFromAuth = null
 
-  componentDidMount () {
-    const { setCurrentUser } = this.props
-    this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
-      // this.setState({ currentUser: user })
-      // createUserProfileDocument(user)
-      if (userAuth) {
-        const userRef = await createUserProfileDocument(userAuth)
+  componentDidMount() {
+    const { setCurrentUser } = this.props;
 
-        userRef.onSnapshot(snapshot => {
+    this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
+      if (userAuth) {
+        const userRef = await createUserProfileDocument(userAuth);
+
+        userRef.onSnapshot(snapShot => {
           setCurrentUser({
-            id: snapshot.id,
-            ...snapshot.data()
-          })
-        })
-      } else {
-        setCurrentUser ({ currentUser: userAuth })
+            id: snapShot.id,
+            ...snapShot.data()
+          });
+        });
       }
-      
-    })
+
+      setCurrentUser(userAuth);
+    });
   }
 
   componentWillUnmount () {
