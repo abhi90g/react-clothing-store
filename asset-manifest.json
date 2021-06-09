@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/clothing-store-react/static/css/main.7a494752.chunk.css",
-    "main.js": "/clothing-store-react/static/js/main.6ceca5cf.chunk.js",
-    "main.js.map": "/clothing-store-react/static/js/main.6ceca5cf.chunk.js.map",
-    "runtime-main.js": "/clothing-store-react/static/js/runtime-main.16e5a324.js",
-    "runtime-main.js.map": "/clothing-store-react/static/js/runtime-main.16e5a324.js.map",
-    "static/js/2.ba513e0c.chunk.js": "/clothing-store-react/static/js/2.ba513e0c.chunk.js",
-    "static/js/2.ba513e0c.chunk.js.map": "/clothing-store-react/static/js/2.ba513e0c.chunk.js.map",
-    "index.html": "/clothing-store-react/index.html",
-    "static/css/main.7a494752.chunk.css.map": "/clothing-store-react/static/css/main.7a494752.chunk.css.map",
-    "static/js/2.ba513e0c.chunk.js.LICENSE.txt": "/clothing-store-react/static/js/2.ba513e0c.chunk.js.LICENSE.txt",
-    "static/media/crown.3a4e2b15.svg": "/clothing-store-react/static/media/crown.3a4e2b15.svg",
-    "static/media/shopping-bag.415f9b21.svg": "/clothing-store-react/static/media/shopping-bag.415f9b21.svg"
+    "main.css": "/react-clothing-store/static/css/main.7a494752.chunk.css",
+    "main.js": "/react-clothing-store/static/js/main.6ceca5cf.chunk.js",
+    "main.js.map": "/react-clothing-store/static/js/main.6ceca5cf.chunk.js.map",
+    "runtime-main.js": "/react-clothing-store/static/js/runtime-main.0f5b57a4.js",
+    "runtime-main.js.map": "/react-clothing-store/static/js/runtime-main.0f5b57a4.js.map",
+    "static/js/2.166dfae3.chunk.js": "/react-clothing-store/static/js/2.166dfae3.chunk.js",
+    "static/js/2.166dfae3.chunk.js.map": "/react-clothing-store/static/js/2.166dfae3.chunk.js.map",
+    "index.html": "/react-clothing-store/index.html",
+    "static/css/main.7a494752.chunk.css.map": "/react-clothing-store/static/css/main.7a494752.chunk.css.map",
+    "static/js/2.166dfae3.chunk.js.LICENSE.txt": "/react-clothing-store/static/js/2.166dfae3.chunk.js.LICENSE.txt",
+    "static/media/crown.3a4e2b15.svg": "/react-clothing-store/static/media/crown.3a4e2b15.svg",
+    "static/media/shopping-bag.415f9b21.svg": "/react-clothing-store/static/media/shopping-bag.415f9b21.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.16e5a324.js",
-    "static/js/2.ba513e0c.chunk.js",
+    "static/js/runtime-main.0f5b57a4.js",
+    "static/js/2.166dfae3.chunk.js",
     "static/css/main.7a494752.chunk.css",
     "static/js/main.6ceca5cf.chunk.js"
   ]
