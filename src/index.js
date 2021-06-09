@@ -11,7 +11,7 @@ import App from './App';
 
 ReactDOM.render(
     <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             {/* make redux-persist avalable to entire app */}
             <PersistGate persistor={persistor}> 
                 <App />

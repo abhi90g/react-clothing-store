@@ -39,7 +39,7 @@ const Checkout = ({ cartItems, total }) => (
         <div className='test-warning'>
             *Please use this credit card for making payments*
             <br />
-            4242 4242 4242 4242 - Exp: 01/20 - CVV: 123
+            4242 4242 4242 4242 - Exp: 01/22 - CVV: 123
         </div>
     </div>
 )
